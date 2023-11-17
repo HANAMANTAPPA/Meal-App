@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;  
+  }
+body{
+    margin: 1%;
+    border-radius: 10%;
+    background-color: rgb(245, 245, 177); 
+}
+#navbar{
+    height: 50px; 
+    margin: auto 10%;
+    background-color: rgb(228, 228, 59);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+}
+#navbar a{
+    text-decoration: none; 
+    color: rgb(88, 85, 85);
+}
+#navbar a:hover{
+    text-decoration: underline; 
+    color: rgb(88, 85, 85);
+}
+#navbar div{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(88, 85, 85);
+    /* background-color: rgb(0, 255, 89); */
+}
+#main-container{ 
+    margin: 2% 10%;  
+    display: flex;
+    flex-direction: column;
+    align-content: center;  
+}
+#intro-container{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(88, 85, 85);
+}
+#intro-container div{
+    align-items: center;
+    text-align: center;
+}
+#dishimg{
+    height: 8rem;
+    width:  8rem;
+    border-radius: 50%;
+}
+
+#search-box{
+    align-self: center;  
+    height: 50px;
+    width: 60%;
+    display: flex;
+    border-radius: 10pc;
+    border: 1px black solid;
+}
+#input-textbox {   
+    background: transparent;
+    font-size: large; 
+    border: none; 
+    width: 100%;
+    border-radius: 10pc; 
+    text-align: center;
+}
+#dishes-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    justify-content: space-around;
+
+    /* background-color: aqua; */
+    /* height: 100px;
+    width: 100%; */
+}
+#dishes-container > div{
+    width: 250px;
+    margin: 10px;
+    /* background-color: brown; */
+}
+#srcimg{
+    height: 200px;
+    margin: 20px 25px 10px;
+    border-radius: 10px;
+}
+#dishes-container span{
+    font-size: 1.1rem;
+    margin-right: 25px;
+    color: rgb(88, 85, 85);
+    /* width: 10rem;  */
+} 
+#heart  {
+    cursor: pointer;
+    color:  rgb(88, 85, 85);;
+}
+#heart:hover , #heart-checked:hover{ 
+    transform: scale(1.5);
+    transition: ease-in-out;
+    border-radius: 50%; 
+}
+#heart-checked{ 
+    color: red;
+    cursor: pointer;
+}
