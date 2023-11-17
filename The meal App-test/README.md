@@ -42,7 +42,6 @@ here I used vanilla JS
       -  removeFromfavList
       -  showNotification
       
-## Data
-   - tasks - an array 
+## Data 
    - dish={ "idMeal" ,"strMeal"  ,"strMealThumb"  "strInstructions" ,"fav" } 
     
